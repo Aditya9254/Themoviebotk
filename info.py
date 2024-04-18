@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '27527299'))
 API_HASH = environ.get('API_HASH', '32fa44117c07ad8251aeb53612924832')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6102671698:AAGQJcQ-ADVvuoIPRDgxJnawAJtbnpzbYMA")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6614839056:AAFZrdyRLEnPvtANL_Fnv48Ztuphdw_QCqU")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 400))
@@ -27,7 +27,7 @@ MELCOW_VID = environ.get("MELCOW_VID", "https://te.legra.ph/file/6f55d902f9bf2d0
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6029347235').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1256470448').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001717761625').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
@@ -36,7 +36,7 @@ auth_channel = environ.get('AUTH_CHANNEL')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001717761625')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002082172641')
 reqst_channel = environ.get('REQST_CHANNEL_ID', '')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
@@ -58,12 +58,12 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/nawab_me1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Shaitaan_667')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/rock2exclusive')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtoopenrocklinks/2')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/rock2exclusive')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ🥀')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001849404517'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002142497781'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/rock2exclusive')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
