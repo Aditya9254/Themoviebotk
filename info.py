@@ -13,8 +13,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '24363060'))
-API_HASH = environ.get('API_HASH', '2403084c19a00e8f07874b15ba01557b')
+API_ID = int(environ.get('API_ID', '27527299'))
+API_HASH = environ.get('API_HASH', '32fa44117c07ad8251aeb53612924832')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6102671698:AAGQJcQ-ADVvuoIPRDgxJnawAJtbnpzbYMA")
 
 # Bot settings
@@ -59,12 +59,12 @@ MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/nawab_me1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/nawabbotupdate')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/rock2exclusive')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtoopenrocklinks/2')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ🥀')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001849404517'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/nawabbotupdate')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/rock2exclusive')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
